@@ -1,4 +1,4 @@
-public class Card {
+public class Card implements Comparable<Card>{
     //suits
     public final static int CLUBS = 0;
     public final static int DIAMONDS = 1;
@@ -80,4 +80,12 @@ public class Card {
 
         return res;
     }
+
+    //Comparing cards, so you do not draw the same card over and over
+    public int compareTo(Card other){
+        return this.rank - other.rank;
+    }
+
+	public static void add(String deck) {
+	}
 }
