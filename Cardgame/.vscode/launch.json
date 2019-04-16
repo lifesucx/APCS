@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Deck",
+            "request": "launch",
+            "mainClass": "Deck",
+            "projectName": "Cardgame_646562b1"
+        }
+    ]
+}
